@@ -1,0 +1,80 @@
+body {
+    background-color: lightsteelblue;
+}
+
+img {
+    width: 570px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 80px;
+    margin-left: 89px;
+}
+
+.giveaway-info {
+    margin-left: 710px;
+    margin-top: -380px;
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: Arial;
+    color: rgb(66, 105, 177);
+}
+
+h4 {
+    margin-top: -20px;
+    font-family: Arial;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+p {
+    line-height: 30px;
+    font-family: Arial;
+    color: rgb(67, 91, 92);
+}
+
+.Countdown {
+    display: flex;
+  }
+  
+  .Timer {
+    background: rgb(5, 5, 39);
+    color: white;
+    margin-right: 30px;
+    width: 80px;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  .Timer span {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+  }
+  
+  .Timer h4 {
+    font-size: xx-large;
+    margin-bottom: 2px;
+  }
+
+  @media screen and (max-width: 100px) {
+    .section-body {
+      display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 3rem;
+    width: 95vw
+    }
+
+    .iphone {
+      margin-top: 0;
+    }
+  }
+
+ 
+  
